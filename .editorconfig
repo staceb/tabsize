@@ -1,1 +1,27 @@
+# EditorConfig homepage: http://EditorConfig.org
+
+# For detailed style guid, please refer to:
+#  https://github.com/dataxu/style-guides/blob/master/java/java-style-guide.md
+
+# top-most EditorConfig file
+root = true
+
+# common settings for all files
+[*]
+end_of_line = lf
+charset = utf-8
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+tab_width = 2
+
+# specific settings for java
+[*.java]
+indent_style = tab
+indent_size = 12
+max_line_length = 120
+indent_brace_style = 1TBS
+tab_width = 12
+
 
