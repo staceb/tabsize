@@ -9,7 +9,7 @@ root = true
 # specific settings for java
 [*.java]
 
-indent_size = 12
+indent_size = 2
 max_line_length = 120
 indent_brace_style = 1TBS
-tab_width = 12
+tab_width = 2
