@@ -6,16 +6,6 @@
 # top-most EditorConfig file
 root = true
 
-# common settings for all files
-[*]
-end_of_line = lf
-charset = utf-8
-indent_size = 4
-indent_style = space
-insert_final_newline = true
-trim_trailing_whitespace = true
-tab_width = 2
-
 # specific settings for java
 [*.java]
 
