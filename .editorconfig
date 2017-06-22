@@ -1,10 +1,10 @@
-# EditorConfig homepage: http://EditorConfig.org
-
-# For detailed style guid, please refer to:
-#  https://github.com/dataxu/style-guides/blob/master/java/java-style-guide.md
-
-# top-most EditorConfig file
+# editorconfig.org
 root = true
 
-indent_size = 12
-tab_width = 12
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
